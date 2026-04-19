@@ -19,7 +19,7 @@ export default function Navbar() {
           <img
             src="/src/assets/LogoEG.png"
             alt="English Goals Logo"
-            className="h-10 w-10 object-contain" />
+            className="h-20 w-20 object-contain" />
 
           <span className="font-heading font-800 text-lg tracking-wide text-foreground">ENGLISH GOAL
 
