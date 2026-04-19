@@ -17,10 +17,10 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#" className="flex items-center gap-3">
           <img
-            src="https://media.base44.com/images/public/69d9477f7158f9d279692b12/69641eee0_ChatGPTImage15abr202602_25_13pm.png"
+            src="/src/assets/LogoEG.png"
             alt="English Goals Logo"
-            className="h-30 w-30 object-contain" />
-          
+            className="h-10 w-10 object-contain" />
+
           <span className="font-heading font-800 text-lg tracking-wide text-foreground">ENGLISH GOAL
 
           </span>
@@ -33,7 +33,7 @@ export default function Navbar() {
             key={link.href}
             href={link.href}
             className="font-body text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors relative group">
-            
+
               {link.label}
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent group-hover:w-full transition-all duration-300" />
             </a>
@@ -44,7 +44,7 @@ export default function Navbar() {
         <button
           onClick={() => setOpen(!open)}
           className="md:hidden p-2 text-foreground">
-          
+
           {open ? <X size={22} /> : <Menu size={22} />}
         </button>
       </div>
@@ -57,7 +57,7 @@ export default function Navbar() {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -10 }}
           className="md:hidden bg-background/95 backdrop-blur-xl border-b border-border">
-          
+
             <div className="px-6 py-6 flex flex-col gap-5">
               {navLinks.map((link) =>
             <a
@@ -65,7 +65,7 @@ export default function Navbar() {
               href={link.href}
               onClick={() => setOpen(false)}
               className="font-body text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors">
-              
+
                   {link.label}
                 </a>
             )}
