@@ -9,7 +9,7 @@ const highlights = [
 
 
 export default function SobreNosotros() {
-  return (
+return (
     <section id="sobre-nosotros" className="py-24 md:py-32 bg-background">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-16 items-center">
@@ -54,6 +54,9 @@ export default function SobreNosotros() {
                 
                   <h.icon className="h-5 w-5 text-accent mb-2" />
                   <h4 className="font-heading font-700 text-sm text-foreground mb-1">{h.title}</h4>
+                  {h.title === 'Centro Autorizado' && (
+                    <p className="font-body text-xs font-bold text-foreground mb-1">Convenio ITP: INC 10260763</p>
+                  )}
                   <p className="font-body text-xs text-muted-foreground leading-relaxed">{h.desc}</p>
                 </motion.div>
               )}
@@ -62,5 +65,6 @@ export default function SobreNosotros() {
         </div>
       </div>
     </section>);
+
 
 }
