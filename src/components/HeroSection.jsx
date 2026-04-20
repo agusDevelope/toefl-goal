@@ -40,7 +40,7 @@ export default function HeroSection() {
                 className="bg-accent hover:bg-accent/90 text-accent-foreground font-body text-sm tracking-widest uppercase h-14 px-8 rounded-full">
                 
                 <a href="https://wa.me/5518000243?text=Hola%2C%20quiero%20obtener%20más%20información%20sobre%20la%20certificación%20del%20TOEFL%20ITP" target="_blank" rel="noopener noreferrer">
-                  Empieza Tu Certificación
+                  INICIA TU TRÁMITE
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </a>
               </Button>

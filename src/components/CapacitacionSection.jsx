@@ -2,9 +2,9 @@ import { motion } from 'framer-motion';
 import { CheckCircle, Headphones, PenLine, BookOpenText } from 'lucide-react';
 
 const examAreas = [
-  { icon: Headphones, area: 'Comprensión Auditiva', questions: '50 preguntas', time: '35 min' },
-  { icon: PenLine, area: 'Estructura y Expresión Escrita', questions: '40 preguntas', time: '25 min' },
-  { icon: BookOpenText, area: 'Lectura', questions: '50 preguntas', time: '55 min' },
+  { icon: Headphones, area: 'Listening Comprehension', questions: '50 preguntas', time: '35 min' },
+  { icon: PenLine, area: 'Structure & Written Expression', questions: '40 preguntas', time: '25 min' },
+  { icon: BookOpenText, area: 'Reading Comprehension', questions: '50 preguntas', time: '55 min' },
 ];
 
 const features = [
