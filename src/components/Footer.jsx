@@ -102,7 +102,7 @@ export default function Footer() {
 
         <div className="border-t border-primary-foreground/10 mt-12 pt-8 text-center">
           <p className="font-body text-primary-foreground/40 text-xs">
-            © {new Date().getFullYear()} English Goal, S.C. Todos los derechos reservados.
+            © {new Date().getFullYear()} D&A Software R Todos los derechos reservados.
           </p>
         </div>
       </div>
