@@ -17,7 +17,7 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#" className="flex items-center gap-3">
           <img
-            src="/src/assets/LogoEG.png"
+            src="/src/assets/icons/LOGOEG.png"
             alt="English Goals Logo"
             className="h-20 w-20 object-contain" />
 
