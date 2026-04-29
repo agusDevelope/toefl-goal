@@ -11,7 +11,7 @@ const features = [
   'Curso intensivo de preparación (presencial o en línea)',
   'Sesiones mínimas de 5 horas',
   'Aplicación del examen al término del programa',
-  'Resultados en aproximadamente 5 días',
+  'Resultados mínimo 5 días hábiles después.',
   'Segundo intento sin costo adicional',
   'Material de estudio incluido',
 ];
